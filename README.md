@@ -6,11 +6,11 @@ ACME is a prototypical dialogue system that relies on computational argumentatio
 
 Please cite our work as
 
-*Bettina Fazzinga, Elena Palmieri, Margherita Vestoso, Luca Bolognini, Andrea Galassi, Filippo Furfaro, Paolo Torroni, "ACME: A Chatbot for Migrants in Europe", 2024*
+*Bettina Fazzinga, Elena Palmieri, Margherita Vestoso, Luca Bolognini, Andrea Galassi, Filippo Furfaro, Paolo Torroni, "A Chatbot for Asylum-Seeking Migrants in Europe", 2024*
 
 ```
 @article{ACME,
-  title={ACME: A Chatbot for Migrants in Europe },
+  title={A Chatbot for Asylum-Seeking Migrants in Europe},
   author={Bettina Fazzinga and Elena Palmieri and Margherita Vestoso and Luca Bolognini and Andrea Galassi and Filippo Furfaro and Paolo Torroni},
   year={2024},}
 }
