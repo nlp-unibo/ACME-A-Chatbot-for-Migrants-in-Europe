@@ -45,7 +45,7 @@ class Controller:
             os.path.join(current_module_path, 'language/svm/diag_act_dataset.csv'),
             os.path.join(current_module_path, 'language/svm/svc.joblib'))
 
-        self.alternative_question = get_second_question('C:/Users/elena/PycharmProjects/chatbotARG/chat/db/questions.json')
+        self.alternative_question = get_second_question(os.path.join(current_module_path,'..', 'chat', 'db', 'questions.json'))
 
     def set_graph_window_queue(self, graph_window_queue):
         self.graph_window_queue = graph_window_queue
