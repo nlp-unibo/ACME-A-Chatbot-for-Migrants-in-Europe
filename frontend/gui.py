@@ -7,10 +7,10 @@ from controller import Controller
 from language.svm.svm import DialogueActClassifier
 from language.multilingual.teacher_student import SentenceTranslationEmbedding
 
-
+CURRENT_MODULE_PATH = os.path.dirname(os.path.realpath(__file__))
 # Returns the list of the nodes of the graph, which is needed for the graph window
 def get_nodes():
-    graph_path = 'C:\\Users\\elena\\PycharmProjects\\chatbotARG\\chat\\db\\grafo.txt'
+    graph_path = os.path.join(CURRENT_MODULE_PATH, '..', 'chat', 'db', 'grafo.txt')
 
     # Reading the file that contains the graph
     with open(graph_path) as f:
